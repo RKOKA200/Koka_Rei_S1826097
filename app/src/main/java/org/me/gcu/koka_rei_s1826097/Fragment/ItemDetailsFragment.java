@@ -1,9 +1,11 @@
 package org.me.gcu.koka_rei_s1826097.Fragment;
 
+import android.os.Build;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -41,7 +43,11 @@ import org.me.gcu.koka_rei_s1826097.R;
         description = getArguments().getString("Description");
         pubDate = getArguments().getString("Date");
         txtTitle.setText(title);
-        txtDescription.setText(description);
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            txtDescription.setText(Html.fromHtml(description, Html.FROM_HTML_MODE_COMPACT));
+        } else {
+            txtDescription.setText(Html.fromHtml(description));
+        }
         txtTime.setText(pubDate);
         return view;
     }

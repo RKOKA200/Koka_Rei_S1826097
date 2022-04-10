@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_size">120dp</dimen>
+    <dimen name="layout_bottom">30dp</dimen>
+    <dimen name="layout_top">12dp</dimen>
+    <dimen name="view_padding">8dp</dimen>
+    <dimen name="layout_space">60dp</dimen>
+    <dimen name="layout_margin">20dp</dimen>
+    <dimen name="layout_margin_right">10dp</dimen>
+    <dimen name="layout_lot_space">120dp</dimen>
+    <dimen name="flow_btn_custom_radius">8dp</dimen>
+</resources>

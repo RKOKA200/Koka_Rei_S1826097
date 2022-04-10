@@ -1,0 +1,73 @@
+<!--  MPD XML Starter code Semester B Session 2020 2021  -->
+<!--  Koka_Rei_S1826097  -->
+
+<androidx.core.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/salutation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="12dp"
+            android:text="Welcome to Mobile Platform Development Assignment 2021-2022"/>
+
+        <Button
+            android:id="@+id/btnCurrentIncidents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:padding="@dimen/layout_top"
+            android:text="@string/btn_current_incident"
+            android:layout_marginTop="@dimen/layout_space"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnRoadworks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_roadworks"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:padding="@dimen/layout_top"
+            android:layout_margin="12dp"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnPlannedRoadworks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_planned_roadworks"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:padding="@dimen/layout_top"
+            android:layout_margin="12dp"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/acknowledgement"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/layout_bottom"
+            android:text="Contains Traffic Scotland Data"/>
+
+        <TextView
+            android:id="@+id/rawDataDisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=""/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>

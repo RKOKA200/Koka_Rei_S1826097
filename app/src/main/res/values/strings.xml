@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Koka_Rei_S1826097</string>
+    <string name="btn_current_incident">Current Incident</string>
+    <string name="btn_roadworks">Roadworks</string>
+    <string name="btn_planned_roadworks">Planned Roadworks</string>
+    <string name="app_name_copyright">"@Copyright Koka_Rei_S1826097 </string>
+    <string name="app_name_year_copyright">"April 2022</string>
+    <string name="title_activity_item_details">ItemDetailsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="no_data_found">"No data found ... "</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="filter_by">Filter by Date:</string>
+    <string name="toast_back_to_close">Please type back button twice to close the app.</string>
+    <string name="action_settings">Settings</string>
+    <string name="coursework_label">Welcome to Mobile Platform Development Assignment 2021-2022</string>
+    <string name="data_information">Contains Traffic Scotland Data</string>
+</resources>

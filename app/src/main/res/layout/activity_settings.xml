@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Koka_Rei_S1826097  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/layout_top"
+    tools:context=".SettingsActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/layout_top"
+        android:gravity="center"
+        android:text="@string/app_name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Working in progress..."
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/layout_lot_space"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+</LinearLayout>

@@ -89,6 +89,7 @@ public class TrafficScotlandActivityList extends AppCompatActivity {
         txtClearDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 btnChooseDate.setText(R.string.choose_date);
                 linearLayout.setVisibility(View.GONE);
                 recyclerView.setVisibility(View.VISIBLE);

@@ -90,9 +90,9 @@ public class TrafficScotlandActivityList extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 btnChooseDate.setText(R.string.choose_date);
-                currentIncidentsRecycleViewAdapter = new RecycleViewAdapterTrafficScotland(channelItem, TrafficScotlandActivityList.this);
-                recyclerView.setAdapter(currentIncidentsRecycleViewAdapter);
-                currentIncidentsRecycleViewAdapter.notifyDataSetChanged();
+                linearLayout.setVisibility(View.GONE);
+                recyclerView.setVisibility(View.VISIBLE);
+                currentIncidentsRecycleViewAdapter.filterList(channelItem);
             }
         });
 
